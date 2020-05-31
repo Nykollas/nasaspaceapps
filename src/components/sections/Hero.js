@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import PlayerIcon from '../elements/PlayerIcon';
 
 const propTypes = {
   ...SectionProps.types
@@ -85,8 +86,18 @@ const Hero = ({
               aria-controls="video-modal"
               onClick={openModal}
             >
-            <div className="player_icon" style={{backgroundColor:'black', height:200, width:200, borderRadius:20, position:'relative', left:'50%'}}>
-
+            <div className="player_icon" 
+                 style={{
+                          height:'100%',
+                          width:'100%',
+                          borderRadius:20,
+                          position:'absolute',
+                          opacity:0.8,
+                          display:'flex',
+                          alignItems:'center',
+                          justifyContent:'center',
+                        }}>
+              <PlayerIcon></PlayerIcon>
             </div>
               <Image
                 className="has-shadow"
@@ -94,9 +105,6 @@ const Hero = ({
                 alt="Hero"
                 width={896}
                 height={504} />
-                {// Player icon 
-                }
-
             </a>
           </div>
           <Modal
