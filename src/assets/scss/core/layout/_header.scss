@@ -18,7 +18,8 @@
 }
 
 .site-header-inner {
-    display: flex;
+	display: flex;
+	margin-top:32px;
     justify-content: space-between;
     align-items: center;
 	height: $header-height__mobile;

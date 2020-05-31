@@ -78,25 +78,32 @@ const Hero = ({
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+
             <a
-              data-video="https://www.videvo.net/videvo_files/converted/2016_08/preview/160825_09_Grapevines4_1080p.mp480353.webm"
+              data-video="https://player.vimeo.com/video/424450948"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
+            <div className="player_icon" style={{backgroundColor:'black', height:200, width:200, borderRadius:20, position:'relative', left:'50%'}}>
+
+            </div>
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={"https:\/\/i.vimeocdn.com\/video\/901411713_640.jpg"}
                 alt="Hero"
                 width={896}
                 height={504} />
+                {// Player icon 
+                }
+
             </a>
           </div>
           <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://www.videvo.net/videvo_files/converted/2016_08/preview/160825_09_Grapevines4_1080p.mp480353.webm"
+            video="https://player.vimeo.com/video/424450948"
             videoTag="iframe" />
         </div>
       </div>

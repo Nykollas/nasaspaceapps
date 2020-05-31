@@ -28,7 +28,9 @@
 
 	.cta-slogan {
 		margin-bottom: $cta-slogan--padding-v__desktop;
-
+		h3{
+			color:get-color(dark,1);
+		}
 		.cta-split & {
 			margin-bottom: 0;
 			margin-right: $cta-slogan--padding-h__desktop;
