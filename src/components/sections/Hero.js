@@ -81,7 +81,7 @@ const Hero = ({
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
 
             <a
-              data-video="https://player.vimeo.com/video/424450948"
+              data-video="https://player.vimeo.com/video/424650349"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
@@ -101,7 +101,7 @@ const Hero = ({
             </div>
               <Image
                 className="has-shadow"
-                src={"https:\/\/i.vimeocdn.com\/video\/901411713_640.jpg"}
+                src={"https://i.vimeocdn.com/portrait/38694198_300x300"}
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -111,7 +111,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/424450948"
+            video="https://player.vimeo.com/video/424650349"
             videoTag="iframe" />
         </div>
       </div>
