@@ -1,8 +1,5 @@
 ## Safos landing page template
 
-![Open React template preview]()
-
-
 ## Live demo
 
 Check the live demo here 👉️ [Demo](https://safos.us/)
